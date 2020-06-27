@@ -16,12 +16,14 @@ namespace ThirtySixQuestions.ViewModels
 
         public async void StartCommandExecute()
         {
-            var parameter = new NavigationParameters
+            var parameters = new NavigationParameters
             {
-                { "CurrentIndex", 1 }
+                { ParameterNamesConstants.CurrentQuestion, 1 },
+                { ParameterNamesConstants.CurrentSet, 1 },
+                { ParameterNamesConstants.IsSet, true }
             };
 
-            await _navigationService.NavigateAsync($"{PageNameConstants.CardPage}", parameter);
+            await _navigationService.NavigateAsync($"{PageNamesConstants.CardPage}", parameters);
         }
     }
 }

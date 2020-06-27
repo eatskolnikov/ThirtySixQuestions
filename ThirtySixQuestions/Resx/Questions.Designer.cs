@@ -65,57 +65,57 @@ namespace ThirtySixQuestions.Resx {
             }
         }
         
-        internal static string Question1Text {
+        internal static string Question01Text {
             get {
-                return ResourceManager.GetString("Question1Text", resourceCulture);
+                return ResourceManager.GetString("Question01Text", resourceCulture);
             }
         }
         
-        internal static string Question2Text {
+        internal static string Question02Text {
             get {
-                return ResourceManager.GetString("Question2Text", resourceCulture);
+                return ResourceManager.GetString("Question02Text", resourceCulture);
             }
         }
         
-        internal static string Question3Text {
+        internal static string Question03Text {
             get {
-                return ResourceManager.GetString("Question3Text", resourceCulture);
+                return ResourceManager.GetString("Question03Text", resourceCulture);
             }
         }
         
-        internal static string Question4Text {
+        internal static string Question04Text {
             get {
-                return ResourceManager.GetString("Question4Text", resourceCulture);
+                return ResourceManager.GetString("Question04Text", resourceCulture);
             }
         }
         
-        internal static string Question5Text {
+        internal static string Question05Text {
             get {
-                return ResourceManager.GetString("Question5Text", resourceCulture);
+                return ResourceManager.GetString("Question05Text", resourceCulture);
             }
         }
         
-        internal static string Question6Text {
+        internal static string Question06Text {
             get {
-                return ResourceManager.GetString("Question6Text", resourceCulture);
+                return ResourceManager.GetString("Question06Text", resourceCulture);
             }
         }
         
-        internal static string Question7Text {
+        internal static string Question07Text {
             get {
-                return ResourceManager.GetString("Question7Text", resourceCulture);
+                return ResourceManager.GetString("Question07Text", resourceCulture);
             }
         }
         
-        internal static string Question8Text {
+        internal static string Question08Text {
             get {
-                return ResourceManager.GetString("Question8Text", resourceCulture);
+                return ResourceManager.GetString("Question08Text", resourceCulture);
             }
         }
         
-        internal static string Question9Text {
+        internal static string Question09Text {
             get {
-                return ResourceManager.GetString("Question9Text", resourceCulture);
+                return ResourceManager.GetString("Question09Text", resourceCulture);
             }
         }
         

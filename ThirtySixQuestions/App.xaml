@@ -8,20 +8,37 @@
     mc:Ignorable="d"
     x:Class="ThirtySixQuestions.App">
     <Application.Resources>
+        <Color x:Key="Primary">#1D6B7B</Color>
+        <Color x:Key="PrimaryDark">#13293B</Color>
+        <Color x:Key="Secondary">#DFB59B</Color>
+        <Color x:Key="SecondaryDark">#928077</Color>
+        <Color x:Key="Accent">#D57133</Color>
+        <Color x:Key="TextColor">White</Color>
+
+
         <Style TargetType="Button">
             <Setter Property="FontSize" Value="Large"/>
             <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
-            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="CornerRadius" Value="15"/>
+            <Setter Property="Padding" Value="15" />
+            <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+            <Setter Property="BackgroundColor" Value="{StaticResource Accent}" />
         </Style>
         
+        <Style TargetType="ContentPage" x:Key="ContentContainer">
+            <Setter Property="BackgroundColor" Value="{StaticResource PrimaryDark}" />
+        </Style>
+
         <Style x:Key="Paragraph" TargetType="Label">
             <Setter Property="FontSize" Value="Large"/>
             <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
             <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            <Setter Property="TextColor" Value="{StaticResource TextColor}" />
         </Style>
 
         <Style x:Key="Header" TargetType="Label" BasedOn="{StaticResource Paragraph}">
             <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="FontFamily" Value="MarkerFelt-Thin"/>
         </Style>
 
         <Style x:Key="ContentStack" TargetType="StackLayout" >

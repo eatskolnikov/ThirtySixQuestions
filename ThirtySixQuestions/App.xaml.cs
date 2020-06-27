@@ -3,6 +3,7 @@ using Prism.DryIoc;
 using Prism.Ioc;
 using Prism.Navigation;
 using ThirtySixQuestions.Pages;
+using ThirtySixQuestions.Services;
 using ThirtySixQuestions.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -30,15 +31,23 @@ namespace ThirtySixQuestions
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.Register<IQuestionsService, QuestionsService>();
+
             containerRegistry.RegisterForNavigation<NavigationPage>();
-            containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>(PageNameConstants.MainPage);
-            containerRegistry.RegisterForNavigation<CardPage, CardPageViewModel>(PageNameConstants.CardPage);
+            containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>(PageNamesConstants.MainPage);
+            containerRegistry.RegisterForNavigation<CardPage, CardPageViewModel>(PageNamesConstants.CardPage);
         }
     }
 
-    public class PageNameConstants
+    public class PageNamesConstants
     {
         public static string MainPage => "MainPage";
         public static string CardPage => "CardPage";
+    }
+    public class ParameterNamesConstants
+    {
+        public static string CurrentQuestion => "CurrentQuestion";
+        public static string CurrentSet => "CurrentSet";
+        public static string IsSet => "IsSet";
     }
 }

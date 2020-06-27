@@ -2,15 +2,32 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="ThirtySixQuestions.Pages.CardPage">
+    xmlns:resources="clr-namespace:ThirtySixQuestions.Resx"
+    x:Class="ThirtySixQuestions.Pages.CardPage"
+    BackgroundColor="{Binding BackgroundColor}">
     <ContentPage.Content>
         <StackLayout Style="{StaticResource ContentStack}" >
-            <Label Style="{StaticResource Header}" Text="Question #1" />
-            <Label Style="{StaticResource Paragraph}" Text="Lorem ipsum dolor sit amet?"  />
-            <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackLayout Grid.Row="0" Grid.Column="0">
+                    <Label Style="{StaticResource Header}" Text="{Binding Title}" />
+                    <Label Style="{StaticResource Paragraph}" Text="{Binding Content}"  />
+                </StackLayout>
+                <StackLayout
+                    Grid.Row="1"
+                    Grid.Column="0">
+                    <Button 
+                        Text="{x:Static resources:Buttons.NextQuestionText}"
+                        Command="{Binding NextCommand}" />
+                </StackLayout>
+            </Grid>
 
-                <Button Text="Next question >" Command="{Binding NextCommand}" />
-            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

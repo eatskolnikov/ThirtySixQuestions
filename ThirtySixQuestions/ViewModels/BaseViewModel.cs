@@ -1,8 +1,10 @@
 ﻿using System;
 using Prism.Navigation;
+using PropertyChanged;
 
 namespace ThirtySixQuestions.ViewModels
 {
+    [AddINotifyPropertyChangedInterface]
     public class BaseViewModel : INavigationAware
     {
         protected readonly INavigationService _navigationService;
