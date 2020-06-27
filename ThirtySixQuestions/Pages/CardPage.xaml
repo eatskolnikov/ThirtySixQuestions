@@ -5,7 +5,7 @@
     x:Class="ThirtySixQuestions.Pages.CardPage">
     <ContentPage.Content>
         <StackLayout Style="{StaticResource ContentStack}" >
-            <Label Style="{StaticResource Title}" Text="Question #1" />
+            <Label Style="{StaticResource Header}" Text="Question #1" />
             <Label Style="{StaticResource Paragraph}" Text="Lorem ipsum dolor sit amet?"  />
             <StackLayout>
 
