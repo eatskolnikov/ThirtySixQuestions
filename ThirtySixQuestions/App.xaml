@@ -10,8 +10,8 @@
     <Application.Resources>
         <Color x:Key="Primary">#1D6B7B</Color>
         <Color x:Key="PrimaryDark">#13293B</Color>
-        <Color x:Key="Secondary">#DFB59B</Color>
-        <Color x:Key="SecondaryDark">#928077</Color>
+        <Color x:Key="Secondary">#527318</Color>
+        <Color x:Key="SecondaryDark">#ad62aa</Color>
         <Color x:Key="Accent">#D57133</Color>
         <Color x:Key="TextColor">White</Color>
 
@@ -23,6 +23,8 @@
             <Setter Property="Padding" Value="15" />
             <Setter Property="TextColor" Value="{StaticResource TextColor}" />
             <Setter Property="BackgroundColor" Value="{StaticResource Accent}" />
+            
+            <Setter Property="FontFamily" Value="MarkerFelt-Thin"/>
         </Style>
         
         <Style TargetType="ContentPage" x:Key="ContentContainer">
@@ -34,10 +36,13 @@
             <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
             <Setter Property="HorizontalTextAlignment" Value="Center"/>
             <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+            <Setter Property="FontFamily" Value="MarkerFelt-Thin"/>
         </Style>
 
         <Style x:Key="Header" TargetType="Label" BasedOn="{StaticResource Paragraph}">
+            <Setter Property="FontSize" Value="Title"/>
             <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="TextDecorations" Value="Underline" />
             <Setter Property="FontFamily" Value="MarkerFelt-Thin"/>
         </Style>
 

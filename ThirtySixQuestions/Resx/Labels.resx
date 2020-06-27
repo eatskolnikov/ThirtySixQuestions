@@ -17,6 +17,9 @@
     <data name="CongratulationsText" xml:space="preserve">
         <value>Congratulations!</value>
     </data>
+    <data name="CallToActionText" xml:space="preserve">
+        <value>If you liked the experience please rate and leave a review. Also subscribe to my youtube channel.</value>
+    </data>
     <data name="DescriptionText" xml:space="preserve">
         <value>This is a short description of the app</value>
     </data>

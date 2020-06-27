@@ -53,6 +53,12 @@ namespace ThirtySixQuestions.Resx {
             }
         }
         
+        internal static string CallToActionText {
+            get {
+                return ResourceManager.GetString("CallToActionText", resourceCulture);
+            }
+        }
+        
         internal static string DescriptionText {
             get {
                 return ResourceManager.GetString("DescriptionText", resourceCulture);

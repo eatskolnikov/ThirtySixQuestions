@@ -2,17 +2,18 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="ThirtySixQuestions.Pages.FinalPage">
+    xmlns:resources="clr-namespace:ThirtySixQuestions.Resx"
+    x:Class="ThirtySixQuestions.Pages.FinalPage"
+    Style="{StaticResource ContentContainer}">
     <ContentPage.Content>
-        <StackLayout>
-            <Label  />
-            <Label  />
-
-            <StackLayout Orientation="Horizontal">
-                <Button />
-                <Button />
+        <StackLayout Style="{StaticResource ContentStack}">
+            <Label Style="{StaticResource Header}" Text="{x:Static resources:Labels.CongratulationsText}" />
+            <Label Style="{StaticResource Paragraph}" Text="{x:Static resources:Labels.ThankYouText}" />
+            <Label Style="{StaticResource Paragraph}" Text="{x:Static resources:Labels.CallToActionText}" />
+            <StackLayout Orientation="Vertical">
+                <Button HorizontalOptions="FillAndExpand" Text="{x:Static resources:Buttons.RateText}" />
+                <Button HorizontalOptions="FillAndExpand" Text="{x:Static resources:Buttons.SubscribeText}" />
             </StackLayout>
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
