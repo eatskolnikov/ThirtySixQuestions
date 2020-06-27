@@ -1,6 +1,8 @@
 # 36 Preguntas
 
-----------
+## Mockups
+
+![arts/mockup.png](arts/mockup.png)
 
 ## Créditos
 
