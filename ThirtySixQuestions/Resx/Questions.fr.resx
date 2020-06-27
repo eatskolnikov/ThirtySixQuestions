@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    
+    
+    <data name="Set1Text" xml:space="preserve">
+        <value>Grupo 1</value>
+    </data>
+    <data name="Set2Text" xml:space="preserve">
+        <value>Grupo 2</value>
+    </data>
+    <data name="Set3Text" xml:space="preserve">
+        <value>Set 3</value>
+    </data>
+    
+    <data name="Question1Text" xml:space="preserve">
+        <value>Given the choice of anyone in the world, whom would you want as a dinner guest?</value>
+    </data>
+    <data name="Question2Text" xml:space="preserve">
+        <value>Would you like to be famous? In what way?</value>
+    </data>
+    <data name="Question3Text" xml:space="preserve">
+        <value>Before making a telephone call, do you ever rehearse what you are going to say? Why?</value>
+    </data>
+    <data name="Question4Text" xml:space="preserve">
+        <value>What could constitute "perfect" day for you?</value>
+    </data>
+    <data name="Question5Text" xml:space="preserve">
+        <value>When did you last sing to yourself? To someone else?</value>
+    </data>
+    <data name="Question6Text" xml:space="preserve">
+        <value>If you were able to live to the age of 90 and retain either the mind or body of a 30 year old for the last 60 years of your life, which would you want?</value>
+    </data>
+    <data name="Question7Text" xml:space="preserve">
+        <value>Do you have a secret hunch about how you will die?</value>
+    </data>
+    <data name="Question8Text" xml:space="preserve">
+        <value>Name three things you and your partner appear to have in common.</value>
+    </data>
+    <data name="Question9Text" xml:space="preserve">
+        <value>For what in your life do you feel most grateful?</value>
+    </data>
+    <data name="Question10Text" xml:space="preserve">
+        <value>If you could change anything about the way you were raised, what would it be?</value>
+    </data>
+    <data name="Question11Text" xml:space="preserve">
+        <value>Take four minutes and tell your partner your life story in as much detail as possible.</value>
+    </data>
+    <data name="Question12Text" xml:space="preserve">
+        <value>If you could wake up tomorrow having gained any one quality or ability, what would it be?</value>
+    </data>
+    
+    
+    <data name="Question13Text" xml:space="preserve">
+        <value>If a crystal ball could tell you the truth about yourself, your life, the future or anything else, what would you want to know?</value>
+    </data>
+    <data name="Question14Text" xml:space="preserve">
+        <value>Is there something that you’ve dreamed of doing for a long time? Why haven’t you done it?</value>
+    </data>
+    <data name="Question15Text" xml:space="preserve">
+        <value>What is the greatest accomplishment of your life?</value>
+    </data>
+    <data name="Question16Text" xml:space="preserve">
+        <value>What do you value most in a friendship?</value>
+    </data>
+    <data name="Question17Text" xml:space="preserve">
+        <value>What is your most treasured memory?</value>
+    </data>
+    <data name="Question18Text" xml:space="preserve">
+        <value>What is your most terrible memory?</value>
+    </data>
+    <data name="Question19Text" xml:space="preserve">
+        <value>If you knew that in one year you would die suddenly, would you change anything about the way you are now living? Why?</value>
+    </data>
+    <data name="Question20Text" xml:space="preserve">
+        <value>What does friendship mean to you?</value>
+    </data>
+    <data name="Question21Text" xml:space="preserve">
+        <value>What roles do love and affection play in your life?</value>
+    </data>
+    <data name="Question22Text" xml:space="preserve">
+        <value>Alternate sharing something you consider a positive characteristic of your partner. Share a total of five items.</value>
+    </data>
+    <data name="Question23Text" xml:space="preserve">
+        <value>How close and warm is your family? Do you feel your childhood was happier than most other people’s?</value>
+    </data>
+    <data name="Question24Text" xml:space="preserve">
+        <value>How do you feel about your relationship with your mother?</value>
+    </data>
+    <data name="Question25Text" xml:space="preserve">
+        <value>Make three true “we” statements each. For instance, “We are both in this room feeling ... “</value>
+    </data>
+    <data name="Question26Text" xml:space="preserve">
+        <value>Complete this sentence: “I wish I had someone with whom I could share ... “</value>
+    </data>
+    <data name="Question27Text" xml:space="preserve">
+        <value>If you were going to become a close friend with your partner, please share what would be important for him or her to know.</value>
+    </data>
+    <data name="Question28Text" xml:space="preserve">
+        <value>Tell your partner what you like about them; be very honest this time, saying things that you might not say to someone you’ve just met.</value>
+    </data>
+    <data name="Question29Text" xml:space="preserve">
+        <value>Share with your partner an embarrassing moment in your life.</value>
+    </data>
+    <data name="Question30Text" xml:space="preserve">
+        <value>When did you last cry in front of another person? By yourself?</value>
+    </data>
+    <data name="Question31Text" xml:space="preserve">
+        <value>Tell your partner something that you like about them already.</value>
+    </data>
+    <data name="Question32Text" xml:space="preserve">
+        <value>What, if anything, is too serious to be joked about?</value>
+    </data>
+    <data name="Question33Text" xml:space="preserve">
+        <value>If you were to die this evening with no opportunity to communicate with anyone, what would you most regret not having told someone? Why haven’t you told them yet?</value>
+    </data>
+    <data name="Question34Text" xml:space="preserve">
+        <value>Your house, containing everything you own, catches fire. After saving your loved ones and pets, you have time to safely make a final dash to save any one item. What would it be? Why?</value>
+    </data>
+    <data name="Question35Text" xml:space="preserve">
+        <value>Of all the people in your family, whose death would you find most disturbing? Why?</value>
+    </data>
+    <data name="Question36Text" xml:space="preserve">
+        <value>Share a personal problem and ask your partner’s advice on how he or she might handle it. Also, ask your partner to reflect back to you how you seem to be feeling about the problem you have chosen.</value>
+    </data>
+</root>
