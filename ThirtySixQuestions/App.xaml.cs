@@ -36,6 +36,7 @@ namespace ThirtySixQuestions
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>(PageNamesConstants.MainPage);
             containerRegistry.RegisterForNavigation<CardPage, CardPageViewModel>(PageNamesConstants.CardPage);
+            containerRegistry.RegisterForNavigation<FinalPage, FinalPageViewModel>(PageNamesConstants.FinalPage);
         }
     }
 
@@ -43,6 +44,7 @@ namespace ThirtySixQuestions
     {
         public static string MainPage => "MainPage";
         public static string CardPage => "CardPage";
+        public static string FinalPage => "FinalPage";
     }
     public class ParameterNamesConstants
     {

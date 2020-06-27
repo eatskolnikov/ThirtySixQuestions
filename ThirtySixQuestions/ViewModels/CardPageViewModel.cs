@@ -51,18 +51,14 @@ namespace ThirtySixQuestions.ViewModels
                 }
                 _currentQuestion++;
             }
-            RefreshCard();
-            /*
-            var parameters = new NavigationParameters
+            if(_currentSet <= 4)
             {
-                { ParameterNamesConstants.CurrentQuestion, _currentQuestion },
-                { ParameterNamesConstants.CurrentSet, _currentSet },
-                { ParameterNamesConstants.IsSet, _isSet }
-            };
-
-            await _navigationService.NavigateAsync($"{PageNamesConstants.CardPage}", parameters);
-            */
-
+                RefreshCard();
+            }
+            else
+            {
+                await _navigationService.NavigateAsync($"{PageNamesConstants.FinalPage}");
+            }
         }
 
         public async void RestartCommandExecute()

@@ -21,8 +21,10 @@
                 </StackLayout>
                 <StackLayout
                     Grid.Row="1"
-                    Grid.Column="0">
-                    <Button 
+                    Grid.Column="0"
+                    Padding="0,25">
+                    <Button
+                        VerticalOptions="End"
                         Text="{x:Static resources:Buttons.NextQuestionText}"
                         Command="{Binding NextCommand}" />
                 </StackLayout>
