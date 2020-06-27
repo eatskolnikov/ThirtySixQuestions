@@ -17,3 +17,5 @@
 - [Moqups](https://moqups.com/)
 
 - [Royalty Free Music from Bensound](https://www.bensound.com/)
+
+- [Timer taken from Event App](https://github.com/devcrux/EventApp)

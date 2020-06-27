@@ -21,6 +21,7 @@
     <Folder Include="Resx\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Services\" />
+    <Folder Include="Controls\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Resx\ButtonsTexts.resx">

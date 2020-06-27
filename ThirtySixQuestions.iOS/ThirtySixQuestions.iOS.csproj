@@ -136,4 +136,7 @@
       <Name>ThirtySixQuestions</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\clock.png" />
+  </ItemGroup>
 </Project>

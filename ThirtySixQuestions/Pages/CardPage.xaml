@@ -3,6 +3,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:resources="clr-namespace:ThirtySixQuestions.Resx"
+    xmlns:behaviors="clr-namespace:ThirtySixQuestions.Behaviors"
     x:Class="ThirtySixQuestions.Pages.CardPage"
     BackgroundColor="{Binding BackgroundColor}">
     <ContentPage.Content>
@@ -16,8 +17,16 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <StackLayout Grid.Row="0" Grid.Column="0">
-                    <Label Style="{StaticResource Header}" Text="{Binding Title}" />
-                    <Label Style="{StaticResource Paragraph}" Text="{Binding Content}"  />
+                    <Label Style="{StaticResource Header}" Text="{Binding Title}">    
+                        <Label.Behaviors>
+                            <behaviors:FadeInBehavior />
+                        </Label.Behaviors>
+                    </Label>
+                    <Label Style="{StaticResource Paragraph}" Text="{Binding Content}">
+                        <Label.Behaviors>
+                            <behaviors:FadeInBehavior />
+                        </Label.Behaviors>
+                    </Label>
                 </StackLayout>
                 <StackLayout
                     Grid.Row="1"
