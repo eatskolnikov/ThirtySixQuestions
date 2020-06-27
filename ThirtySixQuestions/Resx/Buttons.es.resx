@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    
+    <data name="StartTestText" xml:space="preserve">
+        <value>Comenzar ahora</value>
+    </data>
+    <data name="CreditsText" xml:space="preserve">
+        <value>Créditos</value>
+    </data>
+    <data name="NextQuestionText" xml:space="preserve">
+        <value>Siguiente pregunta &gt;</value>
+    </data>
+    <data name="RestartText" xml:space="preserve">
+        <value>Reiniciar</value>
+    </data>
+    <data name="RateText" xml:space="preserve">
+        <value>Califica la app</value>
+    </data>
+    <data name="SubscribeText" xml:space="preserve">
+        <value>Suscríbete</value>
+    </data>
+</root>

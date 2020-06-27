@@ -32,15 +32,13 @@ namespace ThirtySixQuestions
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>(PageNameConstants.MainPage);
-            containerRegistry.RegisterForNavigation<QuestionPage, QuestionPageViewModel>(PageNameConstants.QuestionPage);
-            containerRegistry.RegisterForNavigation<SectionPage, SectionPageViewModel>(PageNameConstants.SectionPage);
+            containerRegistry.RegisterForNavigation<CardPage, CardPageViewModel>(PageNameConstants.CardPage);
         }
     }
 
     public class PageNameConstants
     {
         public static string MainPage => "MainPage";
-        public static string QuestionPage => "QuestionPage";
-        public static string SectionPage => "SectionPage";
+        public static string CardPage => "CardPage";
     }
 }

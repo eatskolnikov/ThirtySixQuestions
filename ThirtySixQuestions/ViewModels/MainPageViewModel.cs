@@ -21,7 +21,7 @@ namespace ThirtySixQuestions.ViewModels
                 { "CurrentIndex", 1 }
             };
 
-            await _navigationService.NavigateAsync($"{PageNameConstants.QuestionPage}", parameter);
+            await _navigationService.NavigateAsync($"{PageNameConstants.CardPage}", parameter);
         }
     }
 }

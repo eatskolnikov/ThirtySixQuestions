@@ -20,4 +20,18 @@
     <Folder Include="Resx\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Resx\ButtonsTexts.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Buttons.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resx\ButtonsTexts.Designer.cs">
+      <DependentUpon>ButtonsTexts.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resx\Buttons.Designer.cs">
+      <DependentUpon>Buttons.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

@@ -11,7 +11,7 @@ namespace ThirtySixQuestions.ViewModels
 
         public string BackgroundColor { get; set; }
         public string Title { get; set; }
-        public string Text { get; set; }
+        public string Content { get; set; }
 
         public int Minutes { get; set; }
         public bool HasTimer { get; set; }

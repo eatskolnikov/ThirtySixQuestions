@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace ThirtySixQuestions.Pages
 {
-    public partial class QuestionPage : ContentPage
+    public partial class CardPage : ContentPage
     {
-        public QuestionPage()
+        public CardPage()
         {
             InitializeComponent();
         }
