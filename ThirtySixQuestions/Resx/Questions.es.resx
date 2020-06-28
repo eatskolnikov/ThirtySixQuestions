@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Set1Text" xml:space="preserve">
-    <value>Set 1</value>
+    <value>Grupo 1</value>
   </data>
   <data name="Set2Text" xml:space="preserve">
-    <value>Set 2</value>
+    <value>Grupo 2</value>
   </data>
   <data name="Set3Text" xml:space="preserve">
-    <value>Set 3</value>
+    <value>Grupo 3</value>
   </data>
   <data name="Question01Text" xml:space="preserve">
     <value>Dada la elección de cualquier persona en el mundo, ¿a quién le gustaría como invitado a cenar?</value>
@@ -175,63 +175,63 @@
     <value>¿Qué es lo que más valoras en una amistad?</value>
   </data>
   <data name="Question17Text" xml:space="preserve">
-    <value>What is your most treasured memory?</value>
+    <value>¿Cuál es tu recuerdo más preciado?</value>
   </data>
   <data name="Question18Text" xml:space="preserve">
-    <value>What is your most terrible memory?</value>
+    <value>¿Cuál es tu recuerdo más terrible?</value>
   </data>
   <data name="Question19Text" xml:space="preserve">
-    <value>If you knew that in one year you would die suddenly, would you change anything about the way you are now living? Why?</value>
+    <value>Si supieras que en un año morirías repentinamente, ¿cambiarías algo sobre la forma en que vives ahora? ¿Por qué?</value>
   </data>
   <data name="Question20Text" xml:space="preserve">
-    <value>What does friendship mean to you?</value>
+    <value>¿Qué significa la amistad para ti?</value>
   </data>
   <data name="Question21Text" xml:space="preserve">
-    <value>What roles do love and affection play in your life?</value>
+    <value>¿Qué papeles juegan el amor y el afecto en tu vida?</value>
   </data>
   <data name="Question22Text" xml:space="preserve">
-    <value>Alternate sharing something you consider a positive characteristic of your partner. Share a total of five items.</value>
+    <value>Alterna compartir algo que consideres una característica positiva de tu pareja. Comparte un total de cinco artículos.</value>
   </data>
   <data name="Question23Text" xml:space="preserve">
-    <value>How close and warm is your family? Do you feel your childhood was happier than most other people’s?</value>
+    <value>¿Qué tan cercana y cálida es tu familia? ¿Sientes que tu infancia fue más feliz que la mayoría de otras personas?</value>
   </data>
   <data name="Question24Text" xml:space="preserve">
-    <value>How do you feel about your relationship with your mother?</value>
+    <value>¿Cómo te sientes acerca de tu relación con tu madre?</value>
   </data>
   <data name="Question25Text" xml:space="preserve">
-    <value>Make three true “we” statements each. For instance, “We are both in this room feeling ... “</value>
+    <value>Haga tres declaraciones verdaderas de "nosotros" cada una. Por ejemplo, "Ambos estamos en esta sala sintiendo ..."</value>
   </data>
   <data name="Question26Text" xml:space="preserve">
-    <value>Complete this sentence: “I wish I had someone with whom I could share ... “</value>
+    <value>Complete esta oración: "Desearía tener a alguien con quien compartir ..."</value>
   </data>
   <data name="Question27Text" xml:space="preserve">
-    <value>If you were going to become a close friend with your partner, please share what would be important for him or her to know.</value>
+    <value>Si te vas a convertir en un amigo cercano con tu pareja, comparte lo que sería importante para él o ella saber.</value>
   </data>
   <data name="Question28Text" xml:space="preserve">
-    <value>Tell your partner what you like about them; be very honest this time, saying things that you might not say to someone you’ve just met.</value>
+    <value>Dile a tu pareja lo que te gusta de ellos; sé muy honesto esta vez, diciendo cosas que quizás no le digas a alguien que acabas de conocer.</value>
   </data>
   <data name="Question29Text" xml:space="preserve">
-    <value>Share with your partner an embarrassing moment in your life.</value>
+    <value>Comparte con tu pareja un momento embarazoso en tu vida.</value>
   </data>
   <data name="Question30Text" xml:space="preserve">
-    <value>When did you last cry in front of another person? By yourself?</value>
+    <value>¿Cuándo lloraste por última vez delante de otra persona? ¿Por tí mismo?</value>
   </data>
   <data name="Question31Text" xml:space="preserve">
-    <value>Tell your partner something that you like about them already.</value>
+    <value>Dile a tu pareja algo que te guste de ellos.</value>
   </data>
   <data name="Question32Text" xml:space="preserve">
-    <value>What, if anything, is too serious to be joked about?</value>
+    <value>¿De qué, si es que hay algo, es demasiado serio para ser bromeado?</value>
   </data>
   <data name="Question33Text" xml:space="preserve">
-    <value>If you were to die this evening with no opportunity to communicate with anyone, what would you most regret not having told someone? Why haven’t you told them yet?</value>
+    <value>Si murieras esta noche sin oportunidad de comunicarte con nadie, ¿qué lamentas mucho no haberle dicho a alguien? ¿Por qué no les has dicho todavía?</value>
   </data>
   <data name="Question34Text" xml:space="preserve">
-    <value>Your house, containing everything you own, catches fire. After saving your loved ones and pets, you have time to safely make a final dash to save any one item. What would it be? Why?</value>
+    <value>Tu casa, que contiene todo lo que tienes, se incendia. Después de salvar a sus seres queridos y mascotas, tiene tiempo para hacer una carrera final de forma segura para guardar cualquier artículo. ¿Qué podría ser? ¿Por qué?</value>
   </data>
   <data name="Question35Text" xml:space="preserve">
-    <value>Of all the people in your family, whose death would you find most disturbing? Why?</value>
+    <value>De todas las personas en su familia, ¿cuál muerte te resultaría más inquietante? ¿Por qué?</value>
   </data>
   <data name="Question36Text" xml:space="preserve">
-    <value>Share a personal problem and ask your partner’s advice on how he or she might handle it. Also, ask your partner to reflect back to you how you seem to be feeling about the problem you have chosen.</value>
+    <value>Comparta un problema personal y solicite el consejo de su pareja sobre cómo podría manejarlo. Además, pídale a su pareja que le recuerde cómo parece sentirse sobre el problema que ha elegido.</value>
   </data>
 </root>
