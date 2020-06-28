@@ -1,137 +1,237 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-    <resheader name="resmimetype">
-        <value>text/microsoft-resx</value>
-    </resheader>
-    <resheader name="version">
-        <value>2.0</value>
-    </resheader>
-    <resheader name="reader">
-        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>
-    <resheader name="writer">
-        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>
+  <!-- 
+    Microsoft ResX Schema 
     
+    Version 2.0
     
-    <data name="Set1Text" xml:space="preserve">
-        <value>Set 1</value>
-    </data>
-    <data name="Set2Text" xml:space="preserve">
-        <value>Set 2</value>
-    </data>
-    <data name="Set3Text" xml:space="preserve">
-        <value>Set 3</value>
-    </data>
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
     
-    <data name="Question01Text" xml:space="preserve">
-        <value>Given the choice of anyone in the world, whom would you want as a dinner guest?</value>
-    </data>
-    <data name="Question02Text" xml:space="preserve">
-        <value>Would you like to be famous? In what way?</value>
-    </data>
-    <data name="Question03Text" xml:space="preserve">
-        <value>Before making a telephone call, do you ever rehearse what you are going to say? Why?</value>
-    </data>
-    <data name="Question04Text" xml:space="preserve">
-        <value>What could constitute "perfect" day for you?</value>
-    </data>
-    <data name="Question05Text" xml:space="preserve">
-        <value>When did you last sing to yourself? To someone else?</value>
-    </data>
-    <data name="Question06Text" xml:space="preserve">
-        <value>If you were able to live to the age of 90 and retain either the mind or body of a 30 year old for the last 60 years of your life, which would you want?</value>
-    </data>
-    <data name="Question07Text" xml:space="preserve">
-        <value>Do you have a secret hunch about how you will die?</value>
-    </data>
-    <data name="Question08Text" xml:space="preserve">
-        <value>Name three things you and your partner appear to have in common.</value>
-    </data>
-    <data name="Question09Text" xml:space="preserve">
-        <value>For what in your life do you feel most grateful?</value>
-    </data>
-    <data name="Question10Text" xml:space="preserve">
-        <value>If you could change anything about the way you were raised, what would it be?</value>
-    </data>
-    <data name="Question11Text" xml:space="preserve">
-        <value>Take four minutes and tell your partner your life story in as much detail as possible.</value>
-    </data>
-    <data name="Question12Text" xml:space="preserve">
-        <value>If you could wake up tomorrow having gained any one quality or ability, what would it be?</value>
-    </data>
+    Example:
     
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
     
-    <data name="Question13Text" xml:space="preserve">
-        <value>If a crystal ball could tell you the truth about yourself, your life, the future or anything else, what would you want to know?</value>
-    </data>
-    <data name="Question14Text" xml:space="preserve">
-        <value>Is there something that you’ve dreamed of doing for a long time? Why haven’t you done it?</value>
-    </data>
-    <data name="Question15Text" xml:space="preserve">
-        <value>What is the greatest accomplishment of your life?</value>
-    </data>
-    <data name="Question16Text" xml:space="preserve">
-        <value>What do you value most in a friendship?</value>
-    </data>
-    <data name="Question17Text" xml:space="preserve">
-        <value>What is your most treasured memory?</value>
-    </data>
-    <data name="Question18Text" xml:space="preserve">
-        <value>What is your most terrible memory?</value>
-    </data>
-    <data name="Question19Text" xml:space="preserve">
-        <value>If you knew that in one year you would die suddenly, would you change anything about the way you are now living? Why?</value>
-    </data>
-    <data name="Question20Text" xml:space="preserve">
-        <value>What does friendship mean to you?</value>
-    </data>
-    <data name="Question21Text" xml:space="preserve">
-        <value>What roles do love and affection play in your life?</value>
-    </data>
-    <data name="Question22Text" xml:space="preserve">
-        <value>Alternate sharing something you consider a positive characteristic of your partner. Share a total of five items.</value>
-    </data>
-    <data name="Question23Text" xml:space="preserve">
-        <value>How close and warm is your family? Do you feel your childhood was happier than most other people’s?</value>
-    </data>
-    <data name="Question24Text" xml:space="preserve">
-        <value>How do you feel about your relationship with your mother?</value>
-    </data>
-    <data name="Question25Text" xml:space="preserve">
-        <value>Make three true “we” statements each. For instance, “We are both in this room feeling ... “</value>
-    </data>
-    <data name="Question26Text" xml:space="preserve">
-        <value>Complete this sentence: “I wish I had someone with whom I could share ... “</value>
-    </data>
-    <data name="Question27Text" xml:space="preserve">
-        <value>If you were going to become a close friend with your partner, please share what would be important for him or her to know.</value>
-    </data>
-    <data name="Question28Text" xml:space="preserve">
-        <value>Tell your partner what you like about them; be very honest this time, saying things that you might not say to someone you’ve just met.</value>
-    </data>
-    <data name="Question29Text" xml:space="preserve">
-        <value>Share with your partner an embarrassing moment in your life.</value>
-    </data>
-    <data name="Question30Text" xml:space="preserve">
-        <value>When did you last cry in front of another person? By yourself?</value>
-    </data>
-    <data name="Question31Text" xml:space="preserve">
-        <value>Tell your partner something that you like about them already.</value>
-    </data>
-    <data name="Question32Text" xml:space="preserve">
-        <value>What, if anything, is too serious to be joked about?</value>
-    </data>
-    <data name="Question33Text" xml:space="preserve">
-        <value>If you were to die this evening with no opportunity to communicate with anyone, what would you most regret not having told someone? Why haven’t you told them yet?</value>
-    </data>
-    <data name="Question34Text" xml:space="preserve">
-        <value>Your house, containing everything you own, catches fire. After saving your loved ones and pets, you have time to safely make a final dash to save any one item. What would it be? Why?</value>
-    </data>
-    <data name="Question35Text" xml:space="preserve">
-        <value>Of all the people in your family, whose death would you find most disturbing? Why?</value>
-    </data>
-    <data name="Question36Text" xml:space="preserve">
-        <value>Share a personal problem and ask your partner’s advice on how he or she might handle it. Also, ask your partner to reflect back to you how you seem to be feeling about the problem you have chosen.</value>
-    </data>
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Set1Text" xml:space="preserve">
+    <value>Set 1</value>
+  </data>
+  <data name="Set2Text" xml:space="preserve">
+    <value>Set 2</value>
+  </data>
+  <data name="Set3Text" xml:space="preserve">
+    <value>Set 3</value>
+  </data>
+  <data name="Question01Text" xml:space="preserve">
+    <value>Dada la elección de cualquier persona en el mundo, ¿a quién le gustaría como invitado a cenar?</value>
+  </data>
+  <data name="Question02Text" xml:space="preserve">
+    <value>¿Te gustaría ser famoso? ¿En qué manera?</value>
+  </data>
+  <data name="Question03Text" xml:space="preserve">
+    <value>Antes de hacer una llamada telefónica, ¿alguna vez has ensayado lo que vas a decir? ¿Por qué?</value>
+  </data>
+  <data name="Question04Text" xml:space="preserve">
+    <value>¿Qué podría constituir un día "perfecto" para ti?</value>
+  </data>
+  <data name="Question05Text" xml:space="preserve">
+    <value>¿Cuándo fue la última vez que cantaste para tí? ¿Para otra persona?</value>
+  </data>
+  <data name="Question06Text" xml:space="preserve">
+    <value>Si pudieras vivir hasta los 90 años y retener la mente o el cuerpo de un niño de 30 años durante los últimos 60 años de tu vida, ¿cuál te gustaría?</value>
+  </data>
+  <data name="Question07Text" xml:space="preserve">
+    <value>¿Tienes una corazonada secreta sobre cómo morirás?</value>
+  </data>
+  <data name="Question08Text" xml:space="preserve">
+    <value>Nombra tres cosas que tú y tu pareja parecen tener en común.</value>
+  </data>
+  <data name="Question09Text" xml:space="preserve">
+    <value>For what in your life do you feel most grateful?</value>
+  </data>
+  <data name="Question10Text" xml:space="preserve">
+    <value>If you could change anything about the way you were raised, what would it be?</value>
+  </data>
+  <data name="Question11Text" xml:space="preserve">
+    <value>Take four minutes and tell your partner your life story in as much detail as possible.</value>
+  </data>
+  <data name="Question12Text" xml:space="preserve">
+    <value>If you could wake up tomorrow having gained any one quality or ability, what would it be?</value>
+  </data>
+  <data name="Question13Text" xml:space="preserve">
+    <value>If a crystal ball could tell you the truth about yourself, your life, the future or anything else, what would you want to know?</value>
+  </data>
+  <data name="Question14Text" xml:space="preserve">
+    <value>Is there something that you’ve dreamed of doing for a long time? Why haven’t you done it?</value>
+  </data>
+  <data name="Question15Text" xml:space="preserve">
+    <value>What is the greatest accomplishment of your life?</value>
+  </data>
+  <data name="Question16Text" xml:space="preserve">
+    <value>What do you value most in a friendship?</value>
+  </data>
+  <data name="Question17Text" xml:space="preserve">
+    <value>What is your most treasured memory?</value>
+  </data>
+  <data name="Question18Text" xml:space="preserve">
+    <value>What is your most terrible memory?</value>
+  </data>
+  <data name="Question19Text" xml:space="preserve">
+    <value>If you knew that in one year you would die suddenly, would you change anything about the way you are now living? Why?</value>
+  </data>
+  <data name="Question20Text" xml:space="preserve">
+    <value>What does friendship mean to you?</value>
+  </data>
+  <data name="Question21Text" xml:space="preserve">
+    <value>What roles do love and affection play in your life?</value>
+  </data>
+  <data name="Question22Text" xml:space="preserve">
+    <value>Alternate sharing something you consider a positive characteristic of your partner. Share a total of five items.</value>
+  </data>
+  <data name="Question23Text" xml:space="preserve">
+    <value>How close and warm is your family? Do you feel your childhood was happier than most other people’s?</value>
+  </data>
+  <data name="Question24Text" xml:space="preserve">
+    <value>How do you feel about your relationship with your mother?</value>
+  </data>
+  <data name="Question25Text" xml:space="preserve">
+    <value>Make three true “we” statements each. For instance, “We are both in this room feeling ... “</value>
+  </data>
+  <data name="Question26Text" xml:space="preserve">
+    <value>Complete this sentence: “I wish I had someone with whom I could share ... “</value>
+  </data>
+  <data name="Question27Text" xml:space="preserve">
+    <value>If you were going to become a close friend with your partner, please share what would be important for him or her to know.</value>
+  </data>
+  <data name="Question28Text" xml:space="preserve">
+    <value>Tell your partner what you like about them; be very honest this time, saying things that you might not say to someone you’ve just met.</value>
+  </data>
+  <data name="Question29Text" xml:space="preserve">
+    <value>Share with your partner an embarrassing moment in your life.</value>
+  </data>
+  <data name="Question30Text" xml:space="preserve">
+    <value>When did you last cry in front of another person? By yourself?</value>
+  </data>
+  <data name="Question31Text" xml:space="preserve">
+    <value>Tell your partner something that you like about them already.</value>
+  </data>
+  <data name="Question32Text" xml:space="preserve">
+    <value>What, if anything, is too serious to be joked about?</value>
+  </data>
+  <data name="Question33Text" xml:space="preserve">
+    <value>If you were to die this evening with no opportunity to communicate with anyone, what would you most regret not having told someone? Why haven’t you told them yet?</value>
+  </data>
+  <data name="Question34Text" xml:space="preserve">
+    <value>Your house, containing everything you own, catches fire. After saving your loved ones and pets, you have time to safely make a final dash to save any one item. What would it be? Why?</value>
+  </data>
+  <data name="Question35Text" xml:space="preserve">
+    <value>Of all the people in your family, whose death would you find most disturbing? Why?</value>
+  </data>
+  <data name="Question36Text" xml:space="preserve">
+    <value>Share a personal problem and ask your partner’s advice on how he or she might handle it. Also, ask your partner to reflect back to you how you seem to be feeling about the problem you have chosen.</value>
+  </data>
 </root>
