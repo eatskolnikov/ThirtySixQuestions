@@ -10,12 +10,16 @@
     <Application.Resources>
         <Color x:Key="Primary">#1D6B7B</Color>
         <Color x:Key="PrimaryDark">#13293B</Color>
-        <Color x:Key="Secondary">#527318</Color>
-        <Color x:Key="SecondaryDark">#ad62aa</Color>
+        <Color x:Key="Secondary">#990099</Color>
+        <Color x:Key="SecondaryDark">#3399FF</Color>
         <Color x:Key="Accent">#D57133</Color>
         <Color x:Key="TextColor">White</Color>
-
-
+        <Color x:Key="DarkGrey">#336d88</Color>
+        <Color x:Key="SoftYellow">#ffcd3c</Color>
+        <Color x:Key="SoftGreen">#a2de96</Color>
+        <Color x:Key="SoftRed">#e7305b</Color>
+        <Color x:Key="SoftPink">#e79cc2</Color>
+        
         <Style TargetType="Button">
             <Setter Property="FontSize" Value="Large"/>
             <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>

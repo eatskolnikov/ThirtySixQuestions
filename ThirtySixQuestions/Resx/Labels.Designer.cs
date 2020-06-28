@@ -83,6 +83,18 @@ namespace ThirtySixQuestions.Resx {
             }
         }
         
+        internal static string MinutesText {
+            get {
+                return ResourceManager.GetString("MinutesText", resourceCulture);
+            }
+        }
+        
+        internal static string SecondsText {
+            get {
+                return ResourceManager.GetString("SecondsText", resourceCulture);
+            }
+        }
+        
         internal static string ThankYouText {
             get {
                 return ResourceManager.GetString("ThankYouText", resourceCulture);

@@ -14,14 +14,12 @@
     </resheader>
     
     
+    
     <data name="CongratulationsText" xml:space="preserve">
         <value>Congratulations!</value>
     </data>
     <data name="CallToActionText" xml:space="preserve">
-        <value>If you liked the experience please leave a review in the appstore and subscribe to my youtube channel.</value>
-    </data>
-    <data name="OpenSource" xml:space="preserve">
-        <value>This is an opensource project, you can fork the repo from my github account.</value>
+        <value>If you liked the experience please rate and leave a review. Also subscribe to my youtube channel.</value>
     </data>
     <data name="DescriptionText" xml:space="preserve">
         <value>This is a short description of the app</value>
@@ -34,6 +32,12 @@
     </data>
     <data name="ExplanationParagraph3Text" xml:space="preserve">
         <value>The 36 questions are broken up into three sets, with a gradual increase in intensity of self-disclosure.</value>
+    </data>
+    <data name="MinutesText" xml:space="preserve">
+        <value>MINUTES</value>
+    </data>
+    <data name="SecondsText" xml:space="preserve">
+        <value>SECONDS</value>
     </data>
     <data name="ThankYouText" xml:space="preserve">
         <value>Thank you for using the app. I hope you and your partner got to meet each other better.</value>

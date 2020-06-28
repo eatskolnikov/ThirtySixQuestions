@@ -32,6 +32,12 @@
     <data name="ExplanationParagraph3Text" xml:space="preserve">
         <value>The 36 questions are broken up into three sets, with a gradual increase in intensity of self-disclosure.</value>
     </data>
+    <data name="MinutesText" xml:space="preserve">
+        <value>MINUTES</value>
+    </data>
+    <data name="SecondsText" xml:space="preserve">
+        <value>SECONDS</value>
+    </data>
     <data name="ThankYouText" xml:space="preserve">
         <value>Thank you for using the app. I hope you and your partner got to meet each other better.</value>
     </data>

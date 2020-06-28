@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Windows.Input;
 using Prism.Navigation;
+using ThirtySixQuestions.Models;
 using ThirtySixQuestions.Resx;
 using ThirtySixQuestions.Services;
 using Xamarin.Forms;
@@ -19,15 +20,30 @@ namespace ThirtySixQuestions.ViewModels
             RestartCommand = new Command(RestartCommandExecute);
 
             _backgroundColors = new List<Color> {
-                (Color)App.Current.Resources["Primary"],
-                (Color)App.Current.Resources["PrimaryDark"],
-                (Color)App.Current.Resources["Secondary"],
                 (Color)App.Current.Resources["SecondaryDark"],
-                Color.Black
+                (Color)App.Current.Resources["SoftGreen"],
+                (Color)App.Current.Resources["SoftRed"],
+                (Color)App.Current.Resources["Secondary"],
+                (Color)App.Current.Resources["SoftPink"],
             };
-
             _questionsService = questionsService;
             _questionsService.Initialize();
+            TimerCounter = new TimerModel
+            {
+                BgColor = ((Color)App.Current.Resources["DarkGrey"]).ToHex(),//"#CC0000", //"#8251AE",
+                Date = new DateTime(DateTime.Now.Ticks + new TimeSpan(0, 0, 4, 1).Ticks),
+                Timespan = new TimeSpan(0, 0, 4, 1)
+            };
+
+            Device.StartTimer(new TimeSpan(0, 0, 1), () =>
+            {
+                var timespan = TimerCounter.Date - DateTime.Now;
+                if(timespan.TotalSeconds > 0)
+                {
+                    TimerCounter.Timespan = timespan;
+                }
+                return true;
+            });
         }
 
         public ICommand NextCommand { get; set; }
@@ -36,10 +52,11 @@ namespace ThirtySixQuestions.ViewModels
         public Color BackgroundColor { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
-        /*
-        public int Minutes { get; set; }
-        public bool HasTimer { get; set; }
-        */
+
+        public TimerModel TimerCounter { get; set;}
+        public bool IsTimerVisible { get; set; } = false;
+        public int TimerOpacity { get; set; } = 0;
+
         private int _currentQuestion;
         private int _currentSet;
         private bool _isSet;
@@ -54,6 +71,10 @@ namespace ThirtySixQuestions.ViewModels
             }
             else
             {
+                if(TimerCounter.Timespan.Minutes > 2)
+                {
+                    //await Displ
+                }
                 if((_currentQuestion%12) == 0)
                 {
                     _isSet = true;
@@ -91,12 +112,17 @@ namespace ThirtySixQuestions.ViewModels
                 Title = QuestionsService.SetsTexts[_currentSet - 1];
                 Content = string.Empty;
                 BackgroundColor = _backgroundColors[4];
+                TimerOpacity = 0;
+                IsTimerVisible = false;
             }
             else
             {
                 Title = string.Empty;
                 Content = QuestionsService.QuestionsTexts[_currentQuestion - 1];
                 BackgroundColor = _backgroundColors[_currentQuestion % 4];
+                TimerOpacity = 1;
+                IsTimerVisible = true;
+                TimerCounter.Date = new DateTime(DateTime.Now.Ticks + new TimeSpan(0, 0, 4, 0).Ticks);
             }
         }
     }

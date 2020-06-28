@@ -1,8 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ThirtySixQuestions.Controls.TimerView">
+<ContentView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:resources="clr-namespace:ThirtySixQuestions.Resx"
+    x:Class="ThirtySixQuestions.Controls.TimerView">
     <ContentView.Content>
-        <Frame HasShadow="True" CornerRadius="15" Margin="0,5" Padding="10" HeightRequest="100" BackgroundColor="{Binding BgColor}">
-            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <Frame HasShadow="True" CornerRadius="15" Margin="0,5" Padding="10" HeightRequest="100" BackgroundColor="{Binding BgColor}" HorizontalOptions="EndAndExpand">
+            <Grid HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
@@ -10,17 +14,17 @@
                 <Image Source="clock.png" Aspect="AspectFit" HorizontalOptions="End" Grid.RowSpan="2"/>
                 <StackLayout Orientation="Horizontal" Spacing="10">
                     <BoxView WidthRequest="12" HeightRequest="12" CornerRadius="6" BackgroundColor="#F8F8F8" VerticalOptions="Center"/>
-                    <Label Text="{Binding EventTitle}" FontSize="12" TextColor="#F8F8F8"/>
+                    <Label Text=" " FontSize="12" TextColor="#F8F8F8"/>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" Grid.Row="1" HorizontalOptions="End" Margin="10" Spacing="15">
                     <StackLayout>
-                        <Label Text="{Binding Minutes}" FontSize="35" FontAttributes="Bold" TextColor="White" HorizontalOptions="End"/>
-                        <Label Text="MINUTES" FontSize="10" TextColor="White" Opacity="0.5" HorizontalOptions="End" Margin="0,-5,0,0"/>
+                        <Label Text="{Binding Minutes}" FontSize="35" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="{x:Static resources:Labels.MinutesText}" FontSize="10" TextColor="White" Opacity="0.95" HorizontalOptions="End" Margin="0,-5,0,0"/>
                     </StackLayout>
                     <StackLayout>
-                        <Label Text="{Binding Seconds}" FontSize="35" FontAttributes="Bold" TextColor="White" HorizontalOptions="End"/>
-                        <Label Text="SECONDS" FontSize="10" TextColor="White" Opacity="0.5" HorizontalOptions="End" Margin="0,-5,0,0"/>
+                        <Label Text="{Binding Seconds}" FontSize="35" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="{x:Static resources:Labels.SecondsText}" FontSize="10" TextColor="White" Opacity="0.95" HorizontalOptions="End" Margin="0,-5,0,0"/>
                     </StackLayout>
                 </StackLayout>
             </Grid>

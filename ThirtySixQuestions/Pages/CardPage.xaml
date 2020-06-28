@@ -3,7 +3,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:resources="clr-namespace:ThirtySixQuestions.Resx"
-    xmlns:behaviors="clr-namespace:ThirtySixQuestions.Behaviors"
+    xmlns:controls="clr-namespace:ThirtySixQuestions.Controls"
     x:Class="ThirtySixQuestions.Pages.CardPage"
     BackgroundColor="{Binding BackgroundColor}">
     <ContentPage.Content>
@@ -11,26 +11,24 @@
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <StackLayout Grid.Row="0" Grid.Column="0">
-                    <Label Style="{StaticResource Header}" Text="{Binding Title}">    
-                        <Label.Behaviors>
-                            <behaviors:FadeInBehavior />
-                        </Label.Behaviors>
-                    </Label>
-                    <Label Style="{StaticResource Paragraph}" Text="{Binding Content}">
-                        <Label.Behaviors>
-                            <behaviors:FadeInBehavior />
-                        </Label.Behaviors>
-                    </Label>
+                <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"> 
+                    <Label Style="{StaticResource Header}" Text="{Binding Title}" />
+                    <Label Style="{StaticResource Paragraph}" Text="{Binding Content}" />
+                </StackLayout>
+                <StackLayout 
+                    Grid.Row="1" Grid.Column="0"
+                    IsVisible="{Binding IsTimerVisible}">
+                    <controls:TimerView BindingContext="{Binding TimerCounter}"  HorizontalOptions="Center"/>
                 </StackLayout>
                 <StackLayout
                     Grid.Row="1"
-                    Grid.Column="0"
+                    Grid.Column="1"
                     Padding="0,25">
                     <Button
                         VerticalOptions="End"
