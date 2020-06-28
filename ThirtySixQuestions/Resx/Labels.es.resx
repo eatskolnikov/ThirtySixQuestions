@@ -121,27 +121,27 @@
     <value>¡Felicidades!</value>
   </data>
   <data name="CallToActionText" xml:space="preserve">
-    <value>If you liked the experience please rate and leave a review. Also subscribe to my youtube channel.</value>
+    <value>Si te gustó la experiencia, califica y deja un comentario. También suscríbete a mi canal de youtube.</value>
   </data>
   <data name="DescriptionText" xml:space="preserve">
-    <value>This is a short description of the app</value>
+    <value>Esta es una breve descripción de la aplicación.</value>
   </data>
   <data name="ExplanationParagraph1Text" xml:space="preserve">
-    <value>Almost twenty years ago, psychologist Arthur Aron and colleagues conducted research to explore whether it was possible to help strangers create closeness and develop a relationship by asking a series of specific personal questions.</value>
+    <value>Hace casi veinte años, el psicólogo Arthur Aron y sus colegas realizaron una investigación para explorar si era posible ayudar a los extraños a crear cercanía y desarrollar una relación haciendo una serie de preguntas personales específicas.</value>
   </data>
   <data name="ExplanationParagraph2Text" xml:space="preserve">
-    <value>The idea is that mutual vulnerability through self-disclosure, fosters closeness and has an impact of the process of building a relationship. When we allow ourselves to be vulnerable with another person it fosters closeness, “sustained, escalating, reciprocal, personal self-disclosure” is fundamental to the development of a close relationship.</value>
+    <value>La idea es que la vulnerabilidad mutua a través de la auto-divulgación, fomenta la cercanía y tiene un impacto en el proceso de construcción de una relación. Cuando nos permitimos ser vulnerables con otra persona, fomenta la cercanía, "la auto-divulgación sostenida, creciente, recíproca y personal" es fundamental para el desarrollo de una relación cercana.</value>
   </data>
   <data name="ExplanationParagraph3Text" xml:space="preserve">
-    <value>The 36 questions are broken up into three sets, with a gradual increase in intensity of self-disclosure.</value>
+    <value>Las 36 preguntas se dividen en tres conjuntos, con un aumento gradual en la intensidad de la divulgación.</value>
   </data>
   <data name="MinutesText" xml:space="preserve">
-    <value>MINUTES</value>
+    <value>MINUTOS</value>
   </data>
   <data name="SecondsText" xml:space="preserve">
-    <value>SECONDS</value>
+    <value>SEGUNDOS</value>
   </data>
   <data name="ThankYouText" xml:space="preserve">
-    <value>Thank you for using the app. I hope you and your partner got to meet each other better.</value>
+    <value>Gracias por usar la aplicación. Espero que usted y su pareja se conozcan mejor.</value>
   </data>
 </root>
