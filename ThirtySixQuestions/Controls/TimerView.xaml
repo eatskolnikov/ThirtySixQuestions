@@ -5,7 +5,7 @@
     xmlns:resources="clr-namespace:ThirtySixQuestions.Resx"
     x:Class="ThirtySixQuestions.Controls.TimerView">
     <ContentView.Content>
-        <Frame HasShadow="True" CornerRadius="15" Margin="0,5" Padding="10" HeightRequest="100" BackgroundColor="{Binding BgColor}" HorizontalOptions="EndAndExpand">
+        <Frame HasShadow="False" CornerRadius="15" Margin="0,5" Padding="10" HeightRequest="100" BackgroundColor="{Binding BgColor}" HorizontalOptions="EndAndExpand">
             <Grid HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>

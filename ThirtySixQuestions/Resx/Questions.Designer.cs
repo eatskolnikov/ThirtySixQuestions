@@ -53,15 +53,33 @@ namespace ThirtySixQuestions.Resx {
             }
         }
         
+        internal static string Set1DescriptionText {
+            get {
+                return ResourceManager.GetString("Set1DescriptionText", resourceCulture);
+            }
+        }
+        
         internal static string Set2Text {
             get {
                 return ResourceManager.GetString("Set2Text", resourceCulture);
             }
         }
         
+        internal static string Set2DescriptionText {
+            get {
+                return ResourceManager.GetString("Set2DescriptionText", resourceCulture);
+            }
+        }
+        
         internal static string Set3Text {
             get {
                 return ResourceManager.GetString("Set3Text", resourceCulture);
+            }
+        }
+        
+        internal static string Set3DescriptionText {
+            get {
+                return ResourceManager.GetString("Set3DescriptionText", resourceCulture);
             }
         }
         

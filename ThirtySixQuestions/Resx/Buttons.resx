@@ -31,4 +31,7 @@
     <data name="SubscribeText" xml:space="preserve">
         <value>Subscribe</value>
     </data>
+    <data name="CreditsText" xml:space="preserve">
+        <value>Credits</value>
+    </data>
 </root>
