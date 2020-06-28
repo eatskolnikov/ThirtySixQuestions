@@ -23,6 +23,11 @@
     <Folder Include="Services\" />
     <Folder Include="Controls\" />
     <Folder Include="Models\" />
+    <Folder Include="Constants\" />
+    <Folder Include="Fonts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\fa-brands-400.ttf" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Resx\ButtonsTexts.resx">
@@ -51,5 +56,8 @@
     <Compile Update="Resx\Questions.Designer.cs">
       <DependentUpon>Questions.resx</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Fonts\fa-brands-400.ttf" />
   </ItemGroup>
 </Project>

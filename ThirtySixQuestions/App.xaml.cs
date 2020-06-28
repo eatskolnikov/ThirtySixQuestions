@@ -2,6 +2,7 @@
 using Prism.DryIoc;
 using Prism.Ioc;
 using Prism.Navigation;
+using ThirtySixQuestions.Constants;
 using ThirtySixQuestions.Pages;
 using ThirtySixQuestions.Services;
 using ThirtySixQuestions.ViewModels;
@@ -38,18 +39,5 @@ namespace ThirtySixQuestions
             containerRegistry.RegisterForNavigation<CardPage, CardPageViewModel>(PageNamesConstants.CardPage);
             containerRegistry.RegisterForNavigation<FinalPage, FinalPageViewModel>(PageNamesConstants.FinalPage);
         }
-    }
-
-    public class PageNamesConstants
-    {
-        public static string MainPage => "MainPage";
-        public static string CardPage => "CardPage";
-        public static string FinalPage => "FinalPage";
-    }
-    public class ParameterNamesConstants
-    {
-        public static string CurrentQuestion => "CurrentQuestion";
-        public static string CurrentSet => "CurrentSet";
-        public static string IsSet => "IsSet";
     }
 }

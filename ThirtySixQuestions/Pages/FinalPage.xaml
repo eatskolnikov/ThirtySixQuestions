@@ -10,10 +10,10 @@
             <Label Style="{StaticResource Header}" Text="{x:Static resources:Labels.CongratulationsText}" />
             <Label Style="{StaticResource Paragraph}" Text="{x:Static resources:Labels.ThankYouText}" />
             <Label Style="{StaticResource Paragraph}" Text="{x:Static resources:Labels.CallToActionText}" />
-            <StackLayout Orientation="Vertical">
+            <!--<StackLayout Orientation="Vertical">
                 <Button HorizontalOptions="FillAndExpand" Text="{x:Static resources:Buttons.RateText}" />
                 <Button HorizontalOptions="FillAndExpand" Text="{x:Static resources:Buttons.SubscribeText}" />
-            </StackLayout>
+            </StackLayout>-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
