@@ -26,8 +26,7 @@ namespace ThirtySixQuestions
             InitializeComponent();
 
             AppCenter.Start("android=2cbf647c-a4d6-413d-8e05-7db31d72daa6;" +
-                     "uwp={Your UWP App secret here};" +
-                     "ios={Your iOS App secret here}",
+                     "ios=df57b69f-bc5c-4632-b005-0e302e96e12f",
                      typeof(Analytics), typeof(Crashes));
 
             var result = await NavigationService.NavigateAsync("MainPage");

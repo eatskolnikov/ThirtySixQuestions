@@ -1,5 +1,13 @@
 # 36 Preguntas
 
+Android Build
+
+[![Build status](https://build.appcenter.ms/v0.1/apps/22c29faf-ed12-40d5-a7e2-860760f97e30/branches/development/badge)](https://appcenter.ms)
+
+iOS Build
+
+[![Build status](https://build.appcenter.ms/v0.1/apps/5280cd26-f5c4-4a77-a384-b156339a77c2/branches/development/badge)](https://appcenter.ms)
+
 ## Mockups
 
 ![arts/mockup.png](arts/mockup.png)
