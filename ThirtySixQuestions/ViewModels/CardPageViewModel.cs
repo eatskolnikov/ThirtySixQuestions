@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Windows.Input;
 using Prism.Navigation;
+using Prism.Services;
+using ThirtySixQuestions.Constants;
 using ThirtySixQuestions.Models;
 using ThirtySixQuestions.Resx;
 using ThirtySixQuestions.Services;
@@ -12,10 +14,14 @@ namespace ThirtySixQuestions.ViewModels
     public class CardPageViewModel : BaseViewModel
     {
         private readonly IQuestionsService _questionsService;
+        private readonly IPageDialogService _pageDialogService;
         private readonly List<Color> _backgroundColors;
 
-        public CardPageViewModel(INavigationService navigationService, IQuestionsService questionsService) : base(navigationService)
+        public CardPageViewModel(INavigationService navigationService, IQuestionsService questionsService, IPageDialogService pageDialogService) : base(navigationService)
         {
+            _pageDialogService = pageDialogService;
+            _questionsService = questionsService;
+
             NextCommand = new Command(NextCommandExecute);
             RestartCommand = new Command(RestartCommandExecute);
 
@@ -26,7 +32,6 @@ namespace ThirtySixQuestions.ViewModels
                 (Color)App.Current.Resources["Secondary"],
                 (Color)App.Current.Resources["SoftPink"],
             };
-            _questionsService = questionsService;
             _questionsService.Initialize();
             TimerCounter = new TimerModel
             {
@@ -73,7 +78,8 @@ namespace ThirtySixQuestions.ViewModels
             {
                 if(TimerCounter.Timespan.Minutes > 2)
                 {
-                    //await Displ
+                    var dialogResult = await _pageDialogService.DisplayAlertAsync("Hold on!", "It is recommended to stay talking at least 2 minutes per question. Are you sure you want to skip now?", "Next question", "Stay a little longer");
+                    if(!dialogResult) return;
                 }
                 if((_currentQuestion%12) == 0)
                 {

@@ -2,11 +2,15 @@
 using Prism.DryIoc;
 using Prism.Ioc;
 using Prism.Navigation;
+using ThirtySixQuestions.Constants;
 using ThirtySixQuestions.Pages;
 using ThirtySixQuestions.Services;
 using ThirtySixQuestions.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace ThirtySixQuestions
 {
@@ -20,6 +24,10 @@ namespace ThirtySixQuestions
         protected override async void OnInitialized()
         {
             InitializeComponent();
+
+            AppCenter.Start("android=2cbf647c-a4d6-413d-8e05-7db31d72daa6;" +
+                     "ios=df57b69f-bc5c-4632-b005-0e302e96e12f",
+                     typeof(Analytics), typeof(Crashes));
 
             var result = await NavigationService.NavigateAsync("MainPage");
 
@@ -38,18 +46,5 @@ namespace ThirtySixQuestions
             containerRegistry.RegisterForNavigation<CardPage, CardPageViewModel>(PageNamesConstants.CardPage);
             containerRegistry.RegisterForNavigation<FinalPage, FinalPageViewModel>(PageNamesConstants.FinalPage);
         }
-    }
-
-    public class PageNamesConstants
-    {
-        public static string MainPage => "MainPage";
-        public static string CardPage => "CardPage";
-        public static string FinalPage => "FinalPage";
-    }
-    public class ParameterNamesConstants
-    {
-        public static string CurrentQuestion => "CurrentQuestion";
-        public static string CurrentSet => "CurrentSet";
-        public static string IsSet => "IsSet";
     }
 }
