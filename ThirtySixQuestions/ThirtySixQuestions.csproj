@@ -44,6 +44,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Questions.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Resx\Instructions.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Instructions.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Resx\ButtonsTexts.Designer.cs">
@@ -57,6 +61,9 @@
     </Compile>
     <Compile Update="Resx\Questions.Designer.cs">
       <DependentUpon>Questions.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resx\Instructions.Designer.cs">
+      <DependentUpon>Instructions.resx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

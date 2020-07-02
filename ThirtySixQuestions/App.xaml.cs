@@ -29,7 +29,7 @@ namespace ThirtySixQuestions
                      "ios=df57b69f-bc5c-4632-b005-0e302e96e12f",
                      typeof(Analytics), typeof(Crashes));
 
-            var result = await NavigationService.NavigateAsync("MainPage");
+            var result = await NavigationService.NavigateAsync(PageNamesConstants.MainPage);
 
             if (!result.Success)
             {

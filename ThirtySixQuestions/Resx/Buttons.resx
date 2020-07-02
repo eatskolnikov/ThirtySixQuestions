@@ -14,7 +14,7 @@
     </resheader>
     
     <data name="StartTestText" xml:space="preserve">
-        <value>Start test</value>
+        <value>Click here to start</value>
     </data>
     <data name="CreditsText" xml:space="preserve">
         <value>Credits</value>

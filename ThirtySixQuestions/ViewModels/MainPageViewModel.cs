@@ -13,29 +13,12 @@ namespace ThirtySixQuestions.ViewModels
     {
         public ICommand StartCommand { get; set; }
 
-        public SocialItem GithubButton { get; set; }
-        public SocialItem YoutubeButton { get; set; }
 
 
         public MainPageViewModel(INavigationService navigationService) : base(navigationService)
         {
             StartCommand = new Command(StartCommandExecute);
 
-            GithubButton = new SocialItem {
-                Icon = IconConstants.GithubSquare,
-                Url="https://github.com/eatskolnikov/ThirtySixQuestions",
-                FollowLinkCommand = new Command<string>(FollowLinkCommandExecute)
-            };
-            YoutubeButton = new SocialItem {
-                Icon = IconConstants.Youtube,
-                Url="http://bit.ly/streamelopersub",
-                FollowLinkCommand = new Command<string>(FollowLinkCommandExecute)
-            };
-        }
-
-        public async void FollowLinkCommandExecute(string url)
-        {
-            await Browser.OpenAsync(url);
         }
 
         public async void StartCommandExecute()

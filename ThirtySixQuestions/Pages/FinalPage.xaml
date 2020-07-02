@@ -14,6 +14,28 @@
                 <Button HorizontalOptions="FillAndExpand" Text="{x:Static resources:Buttons.RateText}" />
                 <Button HorizontalOptions="FillAndExpand" Text="{x:Static resources:Buttons.SubscribeText}" />
             </StackLayout>-->
+
+            
+            <StackLayout VerticalOptions="Start" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="15">
+                <Frame HasShadow="True" BindingContext="{Binding StoreButton}">
+                    <Label FontFamily="Fontawesome" FontSize="Large" Text="{Binding Icon}"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding FollowLinkCommand}" CommandParameter="{Binding Url}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <Frame HasShadow="True" BindingContext="{Binding GithubButton}">
+                    <Label FontFamily="Fontawesome" FontSize="Large" Text="{Binding Icon}"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding FollowLinkCommand}" CommandParameter="{Binding Url}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <Frame HasShadow="True" BindingContext="{Binding YoutubeButton}">
+                    <Label FontFamily="Fontawesome" FontSize="Large" Text="{Binding Icon}"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding FollowLinkCommand}" CommandParameter="{Binding Url}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    
+    
+    
+    <data name="InstructionHeader" xml:space="preserve">
+        <value>Antes de comenzar, usted o su pareja deben leer estas instrucciones en voz alta.</value>
+    </data>
+    <data name="Instruction1" xml:space="preserve">
+        <value>1. Para cada pregunta, uno de nosotros debería leerla en voz alta y luego cada uno deberá turnarse para responder. Un temporizador de cuatro minutos está presente para cada pregunta, vamos a alternar para responder cada 2 minutos.</value>
+    </data>
+    <data name="Instruction2" xml:space="preserve">
+        <value>2. Es muy importante responder cada pregunta en orden.</value>
+    </data>
+    <data name="Instruction3" xml:space="preserve">
+        <value>3. Hay tres conjuntos de preguntas, cada una con 12 preguntas.</value>
+    </data>
+    <data name="Instruction4" xml:space="preserve">
+        <value>4. Después de la última serie de preguntas, tenemos que mirarnos a los ojos durante 2 minutos.</value>
+    </data>
+    <data name="Instruction5" xml:space="preserve">
+        <value>5. Debemos responder preguntas a un ritmo normal, como una conversación. Relajadamente.</value>
+    </data>
+    <data name="Instruction6" xml:space="preserve">
+        <value>6. Podemos omitir preguntas siempre que ambos estemos de acuerdo.</value>
+    </data>
+</root>

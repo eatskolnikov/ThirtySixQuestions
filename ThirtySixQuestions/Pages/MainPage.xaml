@@ -6,33 +6,46 @@
     x:Class="ThirtySixQuestions.Pages.MainPage"
     Style="{StaticResource ContentContainer}">
     <ContentPage.Content>
+        <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="200"/>
+                <RowDefinition Height="100"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <StackLayout VerticalOptions="Start" Style="{StaticResource ContentStack}" Grid.Column="0" Grid.Row="1">
-                <Label Style="{StaticResource Paragraph}" Text="{x:Static resources:Labels.DescriptionText}" />
+            <StackLayout VerticalOptions="Center" Style="{StaticResource ContentStack}" Grid.Column="0" Grid.Row="0">
+                <Label Style="{StaticResource Header}" Text="{x:Static resources:Instructions.InstructionHeader}" />
+                <Label Style="{StaticResource Paragraph}" Text="{x:Static resources:Instructions.Instruction1}" />
+                <Label Style="{StaticResource Paragraph}" Text="{x:Static resources:Instructions.Instruction2}" />
+                <Label Style="{StaticResource Paragraph}" Text="{x:Static resources:Instructions.Instruction3}" />
+                <Label Style="{StaticResource Paragraph}" Text="{x:Static resources:Instructions.Instruction4}" />
+                <Label Style="{StaticResource Paragraph}" Text="{x:Static resources:Instructions.Instruction5}" />
+                <Label Style="{StaticResource Paragraph}" Text="{x:Static resources:Instructions.Instruction6}" />
                 <Button VerticalOptions="End" Text="{x:Static resources:Buttons.StartTestText}" Command="{Binding StartCommand}" />
             </StackLayout>
-            <StackLayout VerticalOptions="Start" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="15" Grid.Column="0" Grid.Row="2">
+            <StackLayout VerticalOptions="Start" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="15" Grid.Column="0" Grid.Row="1">
+                <Frame HasShadow="True" BindingContext="{Binding StoreButton}">
+                    <Label FontFamily="Fontawesome" FontSize="Large" Text="{Binding Icon}"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding FollowLinkCommand}" CommandParameter="{Binding Url}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
                 <Frame HasShadow="True" BindingContext="{Binding GithubButton}">
-                    <Label FontFamily="Fontawesome" Text="{Binding Icon}"/>
+                    <Label FontFamily="Fontawesome" FontSize="Large" Text="{Binding Icon}"/>
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding FollowLinkCommand}" CommandParameter="{Binding Url}" />
                     </Frame.GestureRecognizers>
                 </Frame>
                 <Frame HasShadow="True" BindingContext="{Binding YoutubeButton}">
-                    <Label FontFamily="Fontawesome" Text="{Binding Icon}"/>
+                    <Label FontFamily="Fontawesome" FontSize="Large" Text="{Binding Icon}"/>
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding FollowLinkCommand}" CommandParameter="{Binding Url}" />
                     </Frame.GestureRecognizers>
                 </Frame>
             </StackLayout>
         </Grid>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
